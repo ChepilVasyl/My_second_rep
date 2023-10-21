@@ -13,8 +13,6 @@ if(file != nullptr)
     char symbol;
     cout<<"Вкажіть символ з якого повинні починатися слова для підрахунку їх кількості у файлі ";
     cin>>symbol;
-    cout<<"Перевірка GIT"<<endl;
-    cout<<"Перевірка GIT2"<<endl;
     while(fscanf(file,"%s",buffer)>0)
     {
         if(buffer[0]==symbol)
